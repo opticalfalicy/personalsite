@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(deadsplit.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(115, 29, 212);
+    /*text-shadow: 0px 0px 200px #000;*/
+    font-size: 800%;
+    margin-bottom: 0px;
+}
+
+#nav{
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-bottom: 300px;
+  
+}
+.navbtn {
+   
+    font-family: 'Oswald', sans-serif;
+    color: #ff1717;
+    font-size: 400%;
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+    
+}
+
+.navbtn:hover { 
+    color: rgb(112, 5, 5);
+}
+
