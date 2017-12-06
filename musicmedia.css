@@ -1,0 +1,194 @@
+
+@media screen and (max-width: 414px){
+    body{
+        background-color: black;
+    }
+
+    .intro{
+        background: url("deadsplit-ip6.jpg") no-repeat;
+        height: 103%;
+        width: 103%;
+
+    }
+
+    .content{
+        margin-right: 0;
+    }
+
+    #nav{
+        margin-left: 28px;
+    }
+
+    .navbtn{
+        font-size: 140%;
+        padding: 0 10px 5px 190px;
+    }
+
+    .bandcamp{
+        margin-top: 0;
+    }
+
+    li {
+        padding-bottom: 20px;
+    }
+    
+    .bandcamp-links{
+        margin-left: 181px;
+        opacity: .94;
+    }
+
+    #deadsplitegos{
+        height: 125px;
+    }
+
+    #amfad{
+        height: 125px;
+    }
+
+    #oh{
+        height: 125px;
+    }
+
+} 
+
+@media screen and (max-width: 412px){
+    body{
+        background-color: black;
+    }
+
+    .intro{
+        background: url("deadsplit-sm3.jpg") no-repeat;
+        height: 103%;
+        width: 103%;
+
+    }
+
+    .content{
+        margin-right: 0;
+    }
+
+    #nav{
+        margin-left: 23px;
+    }
+
+    .navbtn{
+        font-size: 140%;
+        padding: 0 10px 0 190px;
+    }
+
+    .bandcamp{
+        margin-top: 0;
+    }
+    
+    .bandcamp-links{
+        margin-left: 176px;
+        opacity: .94;
+    }
+
+    #deadsplitegos{
+        height: 100px;
+    }
+
+    #amfad{
+        height: 100px;
+    }
+
+    #oh{
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    body{
+        background-color: black;
+    }
+
+    .intro{
+        background: url("deadsplit-sm2.jpg") no-repeat;
+
+    }
+
+    .content{
+        margin-right: 0;
+    }
+
+    .navbtn{
+        font-size: 140%;
+        padding: 0 10px 0 190px;
+    }
+
+    .bandcamp{
+        margin-top: 0;
+    }
+    
+    .bandcamp-links{
+        margin-left: 175px;
+        opacity: .94;
+    }
+
+    #deadsplitegos{
+        height: 100px;
+    }
+
+    #amfad{
+        height: 100px;
+    }
+
+    #oh{
+        height: 100px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 320px){
+    body{
+        background-color: black;
+    }
+
+    .intro{
+        background: url("deadsplit-sm2.jpg") no-repeat;
+        height: 103%;
+        width: 103%;
+
+    }
+
+    .content{
+        margin-right: 0;
+    }
+
+    .navbtn{
+        font-size: 140%;
+        padding: 0 10px 0 190px;
+    }
+
+    .bandcamp{
+        margin-top: 0;
+    }
+    
+    .bandcamp-links{
+        margin-left: 175px;
+        opacity: .94;
+    }
+
+    #deadsplitegos{
+        height: 100px;
+    }
+
+    #amfad{
+        height: 100px;
+    }
+
+    #oh{
+        height: 100px;
+    }
+
+}
+
+
+

@@ -1,0 +1,90 @@
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    .content h1{
+        font-size: 1060%;
+    }
+
+    #nav{
+        margin-left: 10px;
+        font-size: 205%;
+    }
+
+    .navbtn{
+        font-size: 150%;
+
+    }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+    .content h1{
+        font-size: 700%;
+    }
+
+    #nav{
+        margin-left: 10px;
+        font-size: 150%;
+    }
+
+    .navbtn{
+        font-size: 150%;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+    
+        #nav{
+            margin-left: 32px;
+            font-size: 85%;
+        }
+        
+        .content h1{
+            margin-left: 38px;
+            font-size: 372%;
+        }
+    
+        .contactlist{
+            padding-left: 30px;
+            font-size: 200%;
+        }
+        
+    }
+
+
+
+@media screen and (max-width: 375px) {
+    
+        #nav{
+            margin-left: 35px;
+        }
+        .content h1{
+            font-size: 300%;
+            margin-left: 31px;
+
+            
+        }
+
+        .contactlist{
+            padding-left: 20px;
+        }
+
+        #webcell{
+            display: none;
+        }
+
+        #mobilecell{
+            display: inherit;
+        }
+    
+    
+    }
+
+    
+@media screen and (max-width: 320px) {
+    
+        .content h1{
+            font-size: 350%;
+        }
+    
+    
+    }
