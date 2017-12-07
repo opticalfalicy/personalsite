@@ -23,7 +23,7 @@ html, body{
 
 .intro .inner {
     display: table-cell;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     width: 100%;
     max-width: none;
 
@@ -35,23 +35,26 @@ html, body{
     text-align: center;
 }
 
-/* Header */
+/* Heading */
 
 .content h1{
     font-family: 'Raleway', sans-serif;
     color: #D0D0D0;
     /*text-shadow: 0px 0px 200px #000;*/
     font-size: 800%;
+    margin-right: 32px;
     margin-bottom: 0px;
+    margin-top: 30px;
 }
 
-/*Nav */
+
+/* Navigation */
 
 #nav{
     text-align: center;
     vertical-align: middle;
-    margin-left: 10px;
-    margin-bottom: 200px;
+    margin-right: 36px;
+    /*margin-bottom: 200px;*/
   
 }
 .navbtn {
@@ -68,60 +71,41 @@ html, body{
     color: #000;
 }
 
-/* Bio */
 
-.about-bg{
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url(aboutbg.jpg) no-repeat 50% 50%;
-    display: table;
-    top: 0;
-    background-size: cover;
-    
+/*Site list*/
+
+h3{
+    font-size: 210%;
+    border-style: solid;
+    background-color: rgb(255, 251, 251);
+    color: rgb(24, 60, 77);
     
 }
 
-h3 {
-    margin: 0;
-    top: 0;
-    font-family: 'Oswald', sans-serif;
-    font-size: 300%;
-    color: #edf5ee;
+.site-list{
+    background-color: rgb(24, 60, 77);
+    
+    color: rgb(255, 251, 251);
+    font-size: 150%;
+    font-weight: 900;
     text-align: center;
-   
+    text-decoration: none;
+    border-style: solid;
+    border-width: 10px;
+    list-style: none;
+    padding: 20px 0;
+    margin-right: 10px;
 }
 
-.about-div{
-    background-color: rgb(0, 0, 0);
-    opacity: .75;
-}
-
-.about-text {
+.site{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    margin-top: 55px;
-    top: 0;
-    color: #ffffff;
-    font-weight: 900;
-    font-size: 220%;
+    font-size: 180%;
+    padding-bottom: 30px;
+    color: rgb(255, 251, 251);
     
 }
 
-
-.p-left{
-    text-align: left;
-    padding-left: 25px;
-    color: #ffffff;
-    opacity: 1;
+.site a{
+    color: rgb(255, 251, 251);
 }
-
-.p-right{
-    text-align: right;
-    padding-right: 25px;
-    color: rgb(203, 151, 231);
-    font-weight: 900;
-}
-
 

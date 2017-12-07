@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+    .content h1{
+        font-size: 500%;
+    }
+
+    #nav{
+        margin-left: 10px;
+    }
+
+    .navbtn{
+        font-size: 150%;
+
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+        #nav{
+            margin-left: 0px;
+        }
+
+        .content h1{
+            font-size: 350%;
+        }
+    
+    
+    }
+    
+
+
+@media screen and (max-width: 320px) {
+        
+        #nav{
+            padding-left: 36px;
+            margin-left: 0;
+        }
+
+        .content h1{
+            font-size: 350%;
+            padding-left: 12%;
+            }
+        
+        
+        .site-list{
+            margin: 0;
+        }
+        
+     }
