@@ -1,10 +1,11 @@
 @media screen and (max-width: 768px) {
     .content h1{
         font-size: 500%;
+        padding-left: 28px;
     }
 
     #nav{
-        margin-left: 10px;
+        margin-left: -5px;
     }
 
     .navbtn{
@@ -13,21 +14,79 @@
     }
 }
 
+@media screen and (max-width: 414px) {
+    
+        #nav{
+            padding-left: 38px;
+        }
+    
+        .content h1{
+            font-size: 400%;
+            padding-left: 9%;
+        }
+    
+        .site-list{
+            width: 95%;
+        }
+    }
 
+@media screen and (max-width: 412px) {
+
+    #nav{
+        padding-left: 55px;
+    }
+
+    .content h1{
+        font-size: 400%;
+        padding-left: 9%;
+    }
+
+    .site-list{
+        width: 95%;
+    }
+}
 
 @media screen and (max-width: 375px) {
 
         #nav{
-            margin-left: 0px;
+            padding-right: 69px;
         }
 
         .content h1{
             font-size: 350%;
+            padding-left: 12%;
         }
-    
+
+        .site-list{
+            width: 95%;
+        }
+        
+        .site{
+            width: 100%;
+        }
     
     }
     
+    @media screen and (max-width: 360px) {
+        
+                #nav{
+                    padding-right: 60px;
+                }
+        
+                .content h1{
+                    font-size: 350%;
+                    padding-left: 12%;
+                }
+        
+                .site-list{
+                    width: 95%;
+                }
+                
+                .site{
+                    width: 100%;
+                }
+            
+            }
 
 
 @media screen and (max-width: 320px) {

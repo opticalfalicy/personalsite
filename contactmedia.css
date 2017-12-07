@@ -47,6 +47,14 @@
             padding-left: 30px;
             font-size: 205%;
         }
+
+        #webcell{
+            display: none;
+        }
+
+        #mobilecell{
+            display: inherit;
+        }
         
     }
 
