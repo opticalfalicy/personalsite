@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 413px) and (max-width: 414px) {
     
         #nav{
             margin-left: 32px;
@@ -45,14 +45,67 @@
     
         .contactlist{
             padding-left: 30px;
-            font-size: 200%;
+            font-size: 205%;
+        }
+
+        #webcell{
+            display: none;
+        }
+
+        #mobilecell{
+            display: inherit;
         }
         
     }
 
+    @media screen and (min-width: 380px) and (max-width: 412px) {
+        
+            #nav{
+                margin-left: 32px;
+                font-size: 85%;
+            }
+            
+            .content h1{
+                margin-left: 38px;
+                font-size: 372%;
+            }
+        
+            .contactlist{
+                padding-left: 30px;
+                font-size: 205%;
+            }
+            
+        }
 
+@media screen and (min-width: 370px) and (max-width: 375px) {
+            
+                #nav{
+                    margin-left: 35px;
+                }
+                .content h1{
+                    font-size: 300%;
+                    margin-left: 31px;
+        
+                    
+                }
+        
+                .contactlist{
+                    padding-left: 20px;
+                    font-size: 186%;
+                }
+        
+                #webcell{
+                    display: none;
+                }
+        
+                #mobilecell{
+                    display: inherit;
+                }
+            
+            
+            }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 360px) {
     
         #nav{
             margin-left: 35px;
@@ -66,6 +119,7 @@
 
         .contactlist{
             padding-left: 20px;
+            font-size: 180.7%;
         }
 
         #webcell{
@@ -81,9 +135,16 @@
 
     
 @media screen and (max-width: 320px) {
-    
+
+        #nav{
+            font-size: 58%;
+        }
         .content h1{
-            font-size: 350%;
+            font-size: 279%;
+        }
+
+        .contactlist{
+            font-size: 155%;
         }
     
     
