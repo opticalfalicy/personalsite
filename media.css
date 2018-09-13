@@ -11,12 +11,26 @@
         font-size: 150%;
 
     }
+    .alert{
+        border: 1px white solid;
+        background: #D0D0D0;
+        margin-left: 90px;
+        font-size: 150%;
+        opacity: .80;
+    }
 }
 
 @media screen and (max-width: 320px) {
 
     .content h1{
         font-size: 350%;
+    }
+    .alert{
+        border: 1px white solid;
+        background: #D0D0D0;
+        margin-left: 90px;
+        font-size: 150%;
+        opacity: .80;
     }
 
 
@@ -26,6 +40,13 @@
     
         .content h1{
             font-size: 350%;
+        }
+        .alert{
+            border: 1px white solid;
+            background: #D0D0D0;
+            margin-left: 90px;
+            font-size: 150%;
+            opacity: .80;
         }
     
     
